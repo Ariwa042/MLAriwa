@@ -14,7 +14,7 @@ ENDPOINT = "https://paper-api.alpaca.markets"
 ALPACA_CREDS = {"API_KEY": API_KEY, "API_SECRET": API_SECRET, "PAPER": True}
 
 start_date = datetime(2023, 1, 1)
-end_date = datetime(2024, 1, 31)
+end_date = datetime(2024, 6, 31)
 
 
 class MlTrader(Strategy):
